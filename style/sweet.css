@@ -43,7 +43,14 @@ Font-Weight Default: 400
   margin: 0 auto;
 }
 html {
-  font-size: 10px;
+  /* font-size: 10px; 
+  converting to rem
+  10/16 = 0.625
+  converting to percentage user brower font-setting
+  0.625 * 100  62.5%
+
+  */
+  font-size: 62.5%;
 }
 body {
   font-family: "Work Sans", sans-serif;
